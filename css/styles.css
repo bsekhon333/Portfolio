@@ -1,0 +1,204 @@
+@font-face {
+font-family: "DL";
+src: url("../fonts/Hellena Script-webfont.woff2");
+}
+
+
+
+
+.navbar-right {
+  margin-right: 355px;
+  font-size: 16px;
+
+}
+
+img.navbar-brand {
+  max-height: 100%;
+  width:auto;
+  padding: 5px;
+}
+
+
+.navbar-default {
+  background-color: rgba(208,78,93,0.6);
+  border: 3px solid rgba(58,28,64,0.9);
+
+}
+
+
+
+.navbar-default .navbar-nav>li>a:hover {
+  color:rgb(208,78,93);
+  background-color: rgb(93,208,78);
+}
+
+
+
+
+
+.navbar-default .navbar-nav>li>a {
+    color: rgb(93,208,78);
+    margin-right: 20px;
+    font-family: 'Indie Flower', cursive;
+    font-size: 25px;
+}
+
+#home {
+  /*background: url(../img/main.jpeg);*/
+  background: url(https://images.unsplash.com/1/work-station-straight-on-view.jpg?crop=entropy&dpr=2&fit=crop&fm=jpg&h=725&ixjsv=2.1.0&ixlib=rb-0.3.5&q=50&w=1300);
+  background-size: cover;
+  background-position: center;
+  height: 800px;
+  width: 100%;
+  border-bottom: 3px solid rgb(58,28,64)
+}
+
+.jumbotron {
+  position: relative;
+  top: 300px;
+  width: 75%;
+  margin: auto;
+  text-align: center;
+  background-color: rgba(58,28,64,0.7)
+
+}
+
+#heading h1 {
+  color: rgb(93,208,78);
+  font-family: 'Poiret One', cursive;
+  font-size: 100px;
+}
+
+
+
+
+#about {
+  background-color: rgb(215,245,241);
+  padding: 30px;
+  border-bottom: 3px solid rgb(208,78,93)
+}
+
+
+#portfolio {
+  padding: 30px;
+  background-color: rgba(58,28,64,0.7);
+  border-bottom: 3px solid rgb(93,208,78);
+
+}
+
+#portfolio h2 {
+  text-align: center;
+  padding-bottom: 15px;
+  color:rgb(93,208,78);
+
+}
+
+
+
+
+
+
+.thumbnail {
+  background-color: rgb(208,73,93);
+}
+
+
+
+
+.aboutMe {
+  text-align: center;
+}
+
+
+
+
+
+.contact {
+  width:400px;
+  margin: auto;
+  text-align: center;
+  padding: 30px;
+}
+
+.contact img {
+  max-width: 40% !important;
+  border-radius: 50%;
+}
+
+
+
+ul {
+  padding-right:35px;
+}
+
+
+
+
+
+
+li {
+  display: inline;
+  list-style: none;
+  padding: 0 4px;
+  font-family: "DL";
+
+}
+
+a, a:visited {
+  color:tomato;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: darkred;
+  text-decoration: none;
+}
+
+.available, .unavailable {
+  width: 60%;
+  margin:10px auto 20px;
+  border-radius: 3px;
+  padding: 14px 0;
+  text-align: center;
+}
+
+.available {
+  color: #fff;
+  background-color: #2ecc71;
+}
+
+.unavailable {
+  color: #999;
+  background-color: #eee;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 992px) {
+
+          .navbar-right {
+
+               margin-right:200px;
+
+          }
+
+      }
