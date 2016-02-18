@@ -1,3 +1,11 @@
+body{
+    width: 100%;
+    overflow-x:hidden;
+}
+
+
+
+
 @font-face {
 font-family: "DL";
 src: url("../fonts/Hellena Script-webfont.woff2");
@@ -7,8 +15,13 @@ src: url("../fonts/Hellena Script-webfont.woff2");
 
 
 .navbar-right {
-  margin-right: 355px;
+  padding-right: 250px;
   font-size: 16px;
+  text-shadow: 0 1px 0 #999999, 0 2px 0 #888888,
+         0 2px 0 #777777, 0 3px 0 #666666,
+         0 3px 0 #555555, 0 4px 0 #444444,
+         0 5px 0 #333333, 0 5px 7px rgba(0, 0, 0, 0.4),
+         0 8px 8px rgba(0, 0, 0, 0.2);
 
 }
 
@@ -53,7 +66,7 @@ img.navbar-brand {
   border-bottom: 3px solid rgb(58,28,64)
 }
 
-.jumbotron {
+.jumbotron  {
   position: relative;
   top: 300px;
   width: 75%;
@@ -67,6 +80,22 @@ img.navbar-brand {
   color: rgb(93,208,78);
   font-family: 'Poiret One', cursive;
   font-size: 100px;
+  text-shadow: 0 1px 0 #999999, 0 2px 0 #888888,
+         0 3px 0 #777777, 0 4px 0 #666666,
+         0 5px 0 #555555, 0 6px 0 #444444,
+         0 7px 0 #333333, 0 8px 7px rgba(0, 0, 0, 0.4),
+         0 9px 10px rgba(0, 0, 0, 0.2);
+}
+
+#heading p {
+  color: rgb(93,208,78);
+  font-family: 'Poiret One', cursive;
+  font-size:50px;
+  text-shadow: 0 1px 0 #999999, 0 2px 0 #888888,
+         0 3px 0 #777777, 0 4px 0 #666666,
+         0 5px 0 #555555, 0 6px 0 #444444,
+         0 7px 0 #333333, 0 8px 7px rgba(0, 0, 0, 0.4),
+         0 9px 10px rgba(0, 0, 0, 0.2);
 }
 
 
@@ -83,13 +112,21 @@ img.navbar-brand {
   padding: 30px;
   background-color: rgba(58,28,64,0.7);
   border-bottom: 3px solid rgb(93,208,78);
+  font-family: 'Poiret One', cursive;
+
 
 }
 
-#portfolio h2 {
+#portfolio h2  {
   text-align: center;
   padding-bottom: 15px;
   color:rgb(93,208,78);
+  font-size: 50px;
+  text-shadow: 0 1px 0 #999999, 0 2px 0 #888888,
+         0 3px 0 #777777, 0 4px 0 #666666,
+         0 5px 0 #555555, 0 6px 0 #444444,
+         0 7px 0 #333333, 0 8px 7px rgba(0, 0, 0, 0.4),
+         0 9px 10px rgba(0, 0, 0, 0.2);
 
 }
 
@@ -197,7 +234,7 @@ a:hover {
 
           .navbar-right {
 
-               margin-right:200px;
+               padding-right:90px;
 
           }
 
