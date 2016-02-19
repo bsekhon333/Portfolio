@@ -1,6 +1,7 @@
 body{
     width: 100%;
     overflow-x:hidden;
+    font-family: 'Indie Flower', cursive;
 }
 
 
@@ -104,7 +105,14 @@ img.navbar-brand {
 #about {
   background-color: rgb(215,245,241);
   padding: 30px;
-  border-bottom: 3px solid rgb(208,78,93)
+  border-bottom: 3px solid rgb(208,78,93);
+  font-size: 16px;
+}
+
+
+
+#about h2 {
+  font-size: 35px;
 }
 
 
